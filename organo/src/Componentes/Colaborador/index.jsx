@@ -1,9 +1,9 @@
 import './Colaborador.css'
 
-export const Colaborador = ({ nome, cargo,  imagem}) => { // Desestruturação, operador para desestruturar um objeto. Dessa forma achei + fácil.
+export const Colaborador = ({ nome, cargo,  imagem, corDeFundo}) => { // Desestruturação, operador para desestruturar um objeto. Dessa forma achei + fácil.
     return (
         <div className='colaborador'>
-            <div className='cabecalho'>
+            <div className='cabecalho' style={{ backgroundColor: corDeFundo }}>
                 <img src={imagem} alt={imagem} />
             </div>
             <div className='rodape'>

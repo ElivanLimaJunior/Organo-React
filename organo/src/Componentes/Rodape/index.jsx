@@ -4,13 +4,13 @@ export const Rodape = () => {
     return (
         <footer className='Rodape'>
             <ul>
-                <a href="#">
+                <a href="https://">
                     <img src="/imagens/facebook.png" alt="Facebook" />
                 </a>
-                <a href="#">
+                <a href="https://">
                     <img src="/imagens/tw.png" alt="Twiter" />
                 </a>
-                <a href="#">
+                <a href="https://">
                     <img src="/imagens/ig.png" alt="Instagram" />
                 </a>
             </ul>
