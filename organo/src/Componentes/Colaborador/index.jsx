@@ -1,14 +1,14 @@
 import './Colaborador.css'
 
-export const Colaborador = () => {
+export const Colaborador = ({ nome, cargo,  imagem}) => { // Desestruturação, operador para desestruturar um objeto. Dessa forma achei + fácil.
     return (
         <div className='colaborador'>
             <div className='cabecalho'>
-                <img src="https://github.com/ElivanLimaJunior.png" alt="Elivan Junior" />
+                <img src={imagem} alt={imagem} />
             </div>
             <div className='rodape'>
-                <h4>Elivan Junior</h4>
-                <h5>Dev Front</h5>
+                <h4>{nome}</h4>
+                <h5>{cargo}</h5>
             </div>
         </div>
     )
